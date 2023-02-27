@@ -58,7 +58,20 @@ rostopic pub /encoder_zero std_msgs/Bool "data: false
 Press ctrl-C
 
 
+여기부터 조종기 꽂아서 각도조정
 
+```
+nano QD_H_MobileRobot_Param.yaml
+```
 
+```
+sudo systemctl restart core.service
+```
+
+```
+rostopic echo /motor_steer_encoder
+```
+
+열고 조정후 
 
 
