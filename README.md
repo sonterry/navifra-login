@@ -72,6 +72,15 @@ sudo systemctl restart core.service
 rostopic echo /motor_steer_encoder
 ```
 
-열고 조정후 
+열고 조종기로 조정후 
 
+```
+nano QD_H_MobileRobot_Param.yaml
+```
+
+```
+sudo systemctl restart core.service
+```
+
+false를 true로 바꾸기
 
